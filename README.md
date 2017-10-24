@@ -2,44 +2,48 @@
 
 Things you may want to Know:
 
-* Ruby version - `ruby-2.4.1`
+#### Ruby version
+	`ruby-2.4.1`
  
-* System dependencies
- > Suggested to use `postman` chrome extension.
-* Database creation
- > Add a `database.yml` file in config folder.
+#### System dependencies
+ * Suggested to use `postman` chrome extension.
+#### Database creation
+ * Create a `database.yml` file in config folder.
  
-* Database initialization
- > run command `rails db:migrate`
- > run command `rails db:seed`
+#### Database initialization
+ * run command `rails db:migrate`,
+ * run command `rails db:seed`
 
-* How to run the test suite
- > TODO: Test suite to be added
-* Deployment instructions
- > TODO: Deployment instructions to be added
+#### How to run the test suite
+ * TODO: Test suite to be added
+#### Deployment instructions
+ * TODO: Deployment instructions to be added
 
 
-* Sample Input:
- > {
+#### Sample Input:
+ ``` 
+ {
 	"title": "Mr Mark",
 	"body": "Inventor of Facebook"
-   }
-
-* Sample Output
- > {
+ }
+```
+#### Sample Output
+ ```
+{
     "status": "SUCCESS",
     "message": "Article updated successfully",
     "data": {
         "id": 5,
-        "title": "Mr Sadist",
-        "body": "article text",
+        "title": "Mr Mark",
+        "body": "Inventor of Facebook",
         "created_at": "2017-10-24T07:09:07.000Z",
         "updated_at": "2017-10-24T10:26:08.000Z"
     }
 }
+```
 
 
-* Sample CRUD URLs:
+#### Sample CRUD URLs:
 
  | Action |URL | Request
  |--------|----|--------
